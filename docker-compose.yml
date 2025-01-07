@@ -1,6 +1,6 @@
 version: '3'
 services:
   nginx:
-    image: nginx
+    image: 'nohu126/docker-cicd:'
     ports:
       - "8080:80"
